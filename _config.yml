@@ -2,3 +2,5 @@ theme: jekyll-theme-slate
 title: LangTrans
 description: Customize Programming Language
 repository: "LangTrans/LangTrans"
+footer-links:
+  github: langtrans
