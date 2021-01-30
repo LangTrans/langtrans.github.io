@@ -24,7 +24,7 @@ printhis("Customized!")
 )
 (printhis "Customized!")
 ```
-Yaml Files used here are [New syntax](https://github.com/LangTrans/LangTrans/blob/main/example/source.yaml)(Token extraction), [Template of LISP](https://github.com/LangTrans/LangTrans/blob/main/example/target.yaml)
+Yaml files used are [New syntax](https://github.com/LangTrans/LangTrans/blob/main/example/source.yaml)(Token extraction), [Template of LISP](https://github.com/LangTrans/LangTrans/blob/main/example/target.yaml)
 
 For more see the [Documentation](https://langtrans.readthedocs.io/en/latest/)
 
