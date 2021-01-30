@@ -1,4 +1,4 @@
-LangTrans is a developer tool to customize syntax of any programming language.
+[LangTrans](https://github.com/LangTrans/LangTrans) is a developer tool to customize syntax of any programming language.
 
 ### Advantages
 - You can customize any programming language with your needs.
