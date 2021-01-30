@@ -32,6 +32,11 @@ For more see the [Documentation](https://langtrans.readthedocs.io/en/latest/)
 * [Lisp](https://github.com/LangTrans/LISP_Trans)
 * [Lua](https://github.com/LangTrans/Lua_Trans)
 
+### Downloads
+* [Releases](https://github.com/LangTrans/LangTrans/releases)
+* [Standalone](https://drive.google.com/uc?export=download&id=14lanbflcifeIM3PSCL3fF3rFxSBPrt7W)<br>
+* [Installer](https://drive.google.com/uc?export=download&id=15soZJZCDrDP5KGVxvD5L9Sg7109XVc7y)
+
 ### Community
 [<img src="https://discord.com/assets/e05ead6e6ebc08df9291738d0aa6986d.png" alt="Discord" style="height: 100px;width: 100px;"/>](https://discord.gg/3nDwppur5S)
 
