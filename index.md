@@ -39,6 +39,7 @@ For more see the [Documentation](https://langtrans.readthedocs.io/en/latest/)
 
 ### Community
 [<img src="https://discord.com/assets/e05ead6e6ebc08df9291738d0aa6986d.png" alt="Discord" style="height: 100px;width: 100px;"/>](https://discord.gg/3nDwppur5S)
-[<img src="https://drive.google.com/uc?export=download&id=1UnN7rTXBrFYfG0HxnMxqKZP6Gg0-riYf" alt="Spectrum" style="height: 100px;width: 100px;">](https://spectrum.chat/langtrans-community)
+[<img src="https://drive.google.com/uc?export=download&id=1UnN7rTXBrFYfG0HxnMxqKZP6Gg0-riYf" alt="Spectrum" style="height: 100px;width: 100px;"/>](https://spectrum.chat/langtrans-community)
+[<img src="https://www.gstatic.com/images/branding/product/2x/groups_48dp.png" alt="Google Groups" style="height: 100px;width: 100px;"/>](https://groups.google.com/g/langtrans-community)
 
 LangTrans is licensed under [MIT License](https://raw.githubusercontent.com/B-R-P/LangTrans/main/LICENSE)
