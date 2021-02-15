@@ -4,6 +4,3 @@ description: Customize Programming Language
 repository: "LangTrans/LangTrans"
 footer-links:
   github: langtrans
-plugins:
-  - jekyll-seo-tag
-google_analytics: UA-153183472-2
