@@ -4,7 +4,7 @@
 - You can customize any programming language with your needs.
 - No need to create a new compiler/interpreter to use your preferred syntax.
 - You can create whole syntax or partially for an existing compiler/interpreter of any language.
-- Code faster for your domain.
+- Code faster with your dialect for your domain.
 * Knowledge about regular expression is all you need.
 
 ### Example
