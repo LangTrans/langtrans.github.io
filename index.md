@@ -5,7 +5,8 @@
 - No need to create a new compiler/interpreter to use your preferred syntax.
 - You can create whole syntax or partially for an existing compiler/interpreter of any language.
 - Code faster with your dialect for your domain.
-* Knowledge about regular expression is all you need.
+- Knowledge about regular expression is all you need.
+- Regular expression can be used with nesting support
 
 ### Example
 ##### Customized Syntax of LISP
