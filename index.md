@@ -79,8 +79,6 @@ For more see the [Documentation](https://langtrans.readthedocs.io/en/latest/)
 - [Installer](https://drive.google.com/uc?export=download&id=15soZJZCDrDP5KGVxvD5L9Sg7109XVc7y)
 
 ## Community
-[<img src="https://discord.com/assets/2c21aeda16de354ba5334551a883b481.png" alt="Discord" style="height: 30px;width: 30px;"/>](https://discord.gg/3nDwppur5S)
-[<img src="https://avatars.githubusercontent.com/u/25838825?s=200&v=4" alt="Spectrum" style="height: 30px;width: 30px;"/>](https://spectrum.chat/langtrans-community)
-[<img src="https://www.gstatic.com/images/branding/product/2x/groups_48dp.png" alt="Google Groups" style="height: 30px;width: 30px;"/>](https://groups.google.com/g/langtrans-community)
+[<img src="https://discord.com/assets/2c21aeda16de354ba5334551a883b481.png" alt="Discord" style="height: 50px;width: 50px;"/>](https://discord.gg/3nDwppur5S)[<img src="https://avatars.githubusercontent.com/u/25838825?s=200&v=4" alt="Spectrum" style="height: 50px;width: 50px;"/>](https://spectrum.chat/langtrans-community)[<img src="https://www.gstatic.com/images/branding/product/2x/groups_48dp.png" alt="Google Groups" style="height: 50px;width: 50px;"/>](https://groups.google.com/g/langtrans-community)
 
 LangTrans is licensed under [MIT License](https://raw.githubusercontent.com/B-R-P/LangTrans/main/LICENSE)
