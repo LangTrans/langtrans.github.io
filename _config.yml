@@ -1,4 +1,4 @@
-remote_theme: adobe/hyde-theme
+theme: jekyll-theme-hacker
 title: LangTrans
 description: Customize Programming Language
 repository: "LangTrans/LangTrans"
