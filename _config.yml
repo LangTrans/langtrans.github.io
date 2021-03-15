@@ -8,3 +8,7 @@ footer-links:
 plugins:
   - jekyll-seo-tag
 google_analytics: UA-153183472-2
+font:
+  enable: true
+  global:
+    size: 21
