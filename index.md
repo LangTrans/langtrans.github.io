@@ -12,36 +12,35 @@
 ### Python
 #### Customized Syntax
 
-<div class="highlight" style="background: #202020"><pre style="line-height: 125%;"><span></span><span style="color: #d0d0d0">p</span><span style="color: #ed9d13">"Hello World"</span>
-<span style="color: #d0d0d0">inc</span> <span style="color: #d0d0d0">=</span> <span style="color: #d0d0d0">(x)</span> <span style="color: #d0d0d0">=&gt;</span> <span style="color: #d0d0d0">x+</span><span style="color: #3677a9">1</span>
-<span style="color: #d0d0d0">add(x,y)=&gt;x+y</span>
-<span style="color: #d0d0d0">print(![inc</span> <span style="color: #d0d0d0">=&gt;</span> <span style="color: #3677a9">1..6</span><span style="color: #d0d0d0">])</span>
-<span style="color: #d0d0d0">print|inc|inc(</span><span style="color: #3677a9">1</span><span style="color: #d0d0d0">)</span>
-<span style="color: #6ab825; font-weight: bold">try</span> <span style="color: #d0d0d0">inc(</span><span style="color: #ed9d13">"1"</span><span style="color: #d0d0d0">)</span> <span style="color: #d0d0d0">Exception</span> <span style="color: #d0d0d0">print(</span><span style="color: #ed9d13">"Error:"</span><span style="color: #d0d0d0">,err)</span>
-<span style="color: #d0d0d0">test</span> <span style="color: #d0d0d0">=</span><span style="color: #ed9d13">"test"</span>
-<span style="color: #d0d0d0">=test.replace(</span><span style="color: #ed9d13">"test"</span><span style="color: #d0d0d0">,</span><span style="color: #ed9d13">""</span><span style="color: #d0d0d0">)</span>
-<span style="color: #d0d0d0">x</span> <span style="color: #d0d0d0">=</span> <span style="color: #d0d0d0">True</span>
-<span style="color: #d0d0d0">print((x||False)?</span><span style="color: #ed9d13">"Done"</span><span style="color: #d0d0d0">:</span><span style="color: #ed9d13">"Failed"</span><span style="color: #d0d0d0">)</span>
-<span style="color: #d0d0d0">print(</span><span style="color: #ed9d13">'x is not defined'</span><span style="color: #d0d0d0">)</span> <span style="color: #6ab825; font-weight: bold">if</span> <span style="color: #d0d0d0">!x</span>
+<div class="highlight" style="background: #263238"><pre style="line-height: 125%;"><span></span><span style="color: #EEFFFF">p</span><span style="color: #C3E88D">"Hello World"</span>
+<span style="color: #EEFFFF">inc</span> <span style="color: #89DDFF">=</span> <span style="color: #89DDFF">(</span><span style="color: #EEFFFF">x</span><span style="color: #89DDFF">)</span> <span style="color: #89DDFF">=&gt;</span> <span style="color: #EEFFFF">x</span><span style="color: #89DDFF">+</span><span style="color: #F78C6C">1</span>
+<span style="color: #EEFFFF">add</span><span style="color: #89DDFF">(</span><span style="color: #EEFFFF">x</span><span style="color: #89DDFF">,</span><span style="color: #EEFFFF">y</span><span style="color: #89DDFF">)=&gt;</span><span style="color: #EEFFFF">x</span><span style="color: #89DDFF">+</span><span style="color: #EEFFFF">y</span>
+<span style="color: #EEFFFF">print</span><span style="color: #89DDFF">(![</span><span style="color: #EEFFFF">inc</span> <span style="color: #89DDFF">=&gt;</span> <span style="color: #F78C6C">1..6</span><span style="color: #89DDFF">])</span>
+<span style="color: #EEFFFF">print</span><span style="color: #89DDFF">|</span><span style="color: #EEFFFF">inc</span><span style="color: #89DDFF">|</span><span style="color: #EEFFFF">inc</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">1</span><span style="color: #89DDFF">)</span>
+<span style="color: #BB80B3">try</span> <span style="color: #EEFFFF">inc</span><span style="color: #89DDFF">(</span><span style="color: #C3E88D">"1"</span><span style="color: #89DDFF">)</span> <span style="color: #EEFFFF">Exception</span> <span style="color: #EEFFFF">print</span><span style="color: #89DDFF">(</span><span style="color: #C3E88D">"Error:"</span><span style="color: #89DDFF">,</span><span style="color: #EEFFFF">err</span><span style="color: #89DDFF">)</span>
+<span style="color: #EEFFFF">test</span> <span style="color: #89DDFF">=</span><span style="color: #C3E88D">"test"</span>
+<span style="color: #89DDFF">=</span><span style="color: #EEFFFF">test</span><span style="color: #89DDFF">.</span><span style="color: #EEFFFF">replace</span><span style="color: #89DDFF">(</span><span style="color: #C3E88D">"test"</span><span style="color: #89DDFF">,</span><span style="color: #C3E88D">""</span><span style="color: #89DDFF">)</span>
+<span style="color: #EEFFFF">x</span> <span style="color: #89DDFF">=</span> <span style="color: #EEFFFF">True</span>
+<span style="color: #EEFFFF">print</span><span style="color: #89DDFF">((</span><span style="color: #EEFFFF">x</span><span style="color: #89DDFF">||</span><span style="color: #EEFFFF">False</span><span style="color: #89DDFF">)?</span><span style="color: #C3E88D">"Done"</span><span style="color: #89DDFF">:</span><span style="color: #C3E88D">"Failed"</span><span style="color: #89DDFF">)</span>
+<span style="color: #EEFFFF">print</span><span style="color: #89DDFF">(</span><span style="color: #C3E88D">'x is not defined'</span><span style="color: #89DDFF">)</span> <span style="color: #BB80B3">if</span> <span style="color: #89DDFF">!</span><span style="color: #EEFFFF">x</span>
 </pre></div>
 
 #### Orginal Syntax
-
-<div class="highlight" style="background: #202020"><pre style="line-height: 125%;"><span></span><span style="color: #24909d">print</span><span style="color: #d0d0d0">(</span><span style="color: #ed9d13">"Hello World"</span><span style="color: #d0d0d0">)</span>
-<span style="color: #d0d0d0">inc</span> <span style="color: #d0d0d0">=</span> <span style="color: #6ab825; font-weight: bold">lambda</span> <span style="color: #d0d0d0">x:</span> <span style="color: #d0d0d0">x+</span><span style="color: #3677a9">1</span>
-<span style="color: #d0d0d0">add</span> <span style="color: #d0d0d0">=</span> <span style="color: #6ab825; font-weight: bold">lambda</span> <span style="color: #d0d0d0">x,y:x+y</span>
-<span style="color: #24909d">print</span><span style="color: #d0d0d0">(</span><span style="color: #24909d">list</span><span style="color: #d0d0d0">(</span><span style="color: #24909d">map</span><span style="color: #d0d0d0">(inc,</span><span style="color: #24909d">range</span><span style="color: #d0d0d0">(</span><span style="color: #3677a9">1</span><span style="color: #d0d0d0">,</span><span style="color: #3677a9">6</span><span style="color: #d0d0d0">+</span><span style="color: #3677a9">1</span><span style="color: #d0d0d0">))))</span>
-<span style="color: #24909d">print</span><span style="color: #d0d0d0">(inc(inc(</span><span style="color: #3677a9">1</span><span style="color: #d0d0d0">)))</span>
-<span style="color: #6ab825; font-weight: bold">try</span><span style="color: #d0d0d0">:</span>
-  <span style="color: #d0d0d0">inc(</span><span style="color: #ed9d13">"1"</span><span style="color: #d0d0d0">)</span>
-<span style="color: #6ab825; font-weight: bold">except</span> <span style="color: #bbbbbb">Exception</span> <span style="color: #6ab825; font-weight: bold">as</span> <span style="color: #d0d0d0">err:</span>
-  <span style="color: #24909d">print</span><span style="color: #d0d0d0">(</span><span style="color: #ed9d13">"Error:"</span><span style="color: #d0d0d0">,err)</span>
-<span style="color: #d0d0d0">test</span> <span style="color: #d0d0d0">=</span><span style="color: #ed9d13">"test"</span>
-<span style="color: #d0d0d0">test=test.replace(</span><span style="color: #ed9d13">"test"</span><span style="color: #d0d0d0">,</span><span style="color: #ed9d13">""</span><span style="color: #d0d0d0">)</span>
-<span style="color: #d0d0d0">x</span> <span style="color: #d0d0d0">=</span> <span style="color: #6ab825; font-weight: bold">True</span>
-<span style="color: #24909d">print</span><span style="color: #d0d0d0">(</span><span style="color: #ed9d13">"Done"</span> <span style="color: #6ab825; font-weight: bold">if</span> <span style="color: #d0d0d0">(x</span> <span style="color: #6ab825; font-weight: bold">if</span> <span style="color: #ed9d13">'x'</span> <span style="color: #6ab825; font-weight: bold">in</span> <span style="color: #24909d">locals</span><span style="color: #d0d0d0">()</span> <span style="color: #6ab825; font-weight: bold">else</span> <span style="color: #6ab825; font-weight: bold">False</span><span style="color: #d0d0d0">)</span> <span style="color: #6ab825; font-weight: bold">else</span> <span style="color: #ed9d13">"Failed"</span><span style="color: #d0d0d0">)</span>
-<span style="color: #6ab825; font-weight: bold">if</span> <span style="color: #ed9d13">'x'</span> <span style="color: #6ab825; font-weight: bold">not</span> <span style="color: #6ab825; font-weight: bold">in</span> <span style="color: #24909d">locals</span><span style="color: #d0d0d0">():</span>
-  <span style="color: #24909d">print</span><span style="color: #d0d0d0">(</span><span style="color: #ed9d13">'x is not defined'</span><span style="color: #d0d0d0">)</span>
+<div class="highlight" style="background: #263238"><pre style="line-height: 125%;"><span></span><span style="color: #82AAFF">print</span><span style="color: #89DDFF">(</span><span style="color: #C3E88D">"Hello World"</span><span style="color: #89DDFF">)</span>
+<span style="color: #EEFFFF">inc</span> <span style="color: #89DDFF">=</span> <span style="color: #BB80B3">lambda</span> <span style="color: #EEFFFF">x</span><span style="color: #89DDFF">:</span> <span style="color: #EEFFFF">x</span><span style="color: #89DDFF">+</span><span style="color: #F78C6C">1</span>
+<span style="color: #EEFFFF">add</span> <span style="color: #89DDFF">=</span> <span style="color: #BB80B3">lambda</span> <span style="color: #EEFFFF">x</span><span style="color: #89DDFF">,</span><span style="color: #EEFFFF">y</span><span style="color: #89DDFF">:</span><span style="color: #EEFFFF">x</span><span style="color: #89DDFF">+</span><span style="color: #EEFFFF">y</span>
+<span style="color: #82AAFF">print</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">list</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">map</span><span style="color: #89DDFF">(</span><span style="color: #EEFFFF">inc</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF">range</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">1</span><span style="color: #89DDFF">,</span><span style="color: #F78C6C">6</span><span style="color: #89DDFF">+</span><span style="color: #F78C6C">1</span><span style="color: #89DDFF">))))</span>
+<span style="color: #82AAFF">print</span><span style="color: #89DDFF">(</span><span style="color: #EEFFFF">inc</span><span style="color: #89DDFF">(</span><span style="color: #EEFFFF">inc</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">1</span><span style="color: #89DDFF">)))</span>
+<span style="color: #BB80B3">try</span><span style="color: #89DDFF">:</span>
+  <span style="color: #EEFFFF">inc</span><span style="color: #89DDFF">(</span><span style="color: #C3E88D">"1"</span><span style="color: #89DDFF">)</span>
+<span style="color: #BB80B3">except</span> <span style="color: #FFCB6B">Exception</span> <span style="color: #BB80B3">as</span> <span style="color: #EEFFFF">err</span><span style="color: #89DDFF">:</span>
+  <span style="color: #82AAFF">print</span><span style="color: #89DDFF">(</span><span style="color: #C3E88D">"Error:"</span><span style="color: #89DDFF">,</span><span style="color: #EEFFFF">err</span><span style="color: #89DDFF">)</span>
+<span style="color: #EEFFFF">test</span> <span style="color: #89DDFF">=</span><span style="color: #C3E88D">"test"</span>
+<span style="color: #EEFFFF">test</span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF">test</span><span style="color: #89DDFF">.</span><span style="color: #EEFFFF">replace</span><span style="color: #89DDFF">(</span><span style="color: #C3E88D">"test"</span><span style="color: #89DDFF">,</span><span style="color: #C3E88D">""</span><span style="color: #89DDFF">)</span>
+<span style="color: #EEFFFF">x</span> <span style="color: #89DDFF">=</span> <span style="color: #89DDFF">True</span>
+<span style="color: #82AAFF">print</span><span style="color: #89DDFF">(</span><span style="color: #C3E88D">"Done"</span> <span style="color: #BB80B3">if</span> <span style="color: #89DDFF">(</span><span style="color: #EEFFFF">x</span> <span style="color: #BB80B3">if</span> <span style="color: #C3E88D">'x'</span> <span style="color: #89DDFF; font-style: italic">in</span> <span style="color: #82AAFF">locals</span><span style="color: #89DDFF">()</span> <span style="color: #BB80B3">else</span> <span style="color: #89DDFF">False)</span> <span style="color: #BB80B3">else</span> <span style="color: #C3E88D">"Failed"</span><span style="color: #89DDFF">)</span>
+<span style="color: #BB80B3">if</span> <span style="color: #C3E88D">'x'</span> <span style="color: #89DDFF; font-style: italic">not</span> <span style="color: #89DDFF; font-style: italic">in</span> <span style="color: #82AAFF">locals</span><span style="color: #89DDFF">():</span>
+  <span style="color: #82AAFF">print</span><span style="color: #89DDFF">(</span><span style="color: #C3E88D">'x is not defined'</span><span style="color: #89DDFF">)</span>
 </pre></div>
 
 Yaml files used here<br>
@@ -50,17 +49,16 @@ Yaml files used here<br>
 ### LISP
 #### Customized Syntax of LISP
 
-<div class="highlight" style="background: #202020"><pre style="line-height: 125%;"><span></span><span style="color: #d0d0d0">func</span> <span style="color: #d0d0d0">printhis(s):</span>
-	<span style="color: #24909d">format</span><span style="color: #d0d0d0">(t,s)</span>
-<span style="color: #d0d0d0">printhis(</span><span style="color: #ed9d13">"Customized!"</span><span style="color: #d0d0d0">)</span>
+<div class="highlight" style="background: #263238"><pre style="line-height: 125%;"><span></span><span style="color: #EEFFFF">func</span> <span style="color: #EEFFFF">printhis</span><span style="color: #89DDFF">(</span><span style="color: #EEFFFF">s</span><span style="color: #89DDFF">):</span>
+	<span style="color: #82AAFF">format</span><span style="color: #89DDFF">(</span><span style="color: #EEFFFF">t</span><span style="color: #89DDFF">,</span><span style="color: #EEFFFF">s</span><span style="color: #89DDFF">)</span>
+<span style="color: #EEFFFF">printhis</span><span style="color: #89DDFF">(</span><span style="color: #C3E88D">"Customized!"</span><span style="color: #89DDFF">)</span>
 </pre></div>
 
 #### Original Syntax 
-
-<div class="highlight" style="background: #202020"><pre style="line-height: 125%;"><span></span><span style="color: #d0d0d0">(defun</span> <span style="color: #d0d0d0">printhis</span> <span style="color: #d0d0d0">(s)</span>
-	<span style="color: #d0d0d0">(</span><span style="color: #24909d">format</span> <span style="color: #d0d0d0">t</span> <span style="color: #d0d0d0">s)</span>
-<span style="color: #d0d0d0">)</span>
-<span style="color: #d0d0d0">(printhis</span> <span style="color: #ed9d13">"Customized!"</span><span style="color: #d0d0d0">)</span>
+<div class="highlight" style="background: #263238"><pre style="line-height: 125%;"><span></span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">defun</span> <span style="color: #89DDFF">printhis</span> <span style="color: #89DDFF">(</span><span style="color: #82AAFF">s</span><span style="color: #89DDFF">)</span>
+	<span style="color: #89DDFF">(</span><span style="color: #82AAFF">format</span> <span style="color: #89DDFF">t</span> <span style="color: #89DDFF">s)</span>
+<span style="color: #89DDFF">)</span>
+<span style="color: #89DDFF">(</span><span style="color: #82AAFF">printhis</span> <span style="color: #C3E88D">"Customized!"</span><span style="color: #89DDFF">)</span>
 </pre></div>
 
 [New syntax](https://github.com/LangTrans/LangTrans/blob/main/example/source.yaml)<br>[Template of LISP](https://github.com/LangTrans/LangTrans/blob/main/example/target.yaml)
