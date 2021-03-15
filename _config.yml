@@ -1,4 +1,4 @@
-remote_theme: poole/hyde
+remote_theme: adobe/hyde-theme@v1.0.0
 title: LangTrans
 description: Customize Programming Language
 repository: "LangTrans/LangTrans"
