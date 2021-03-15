@@ -11,7 +11,7 @@
 ## Example
 ### Python
 #### Customized Syntax
-```js
+```javascript
 p"Hello World"
 inc = (x) => x+1
 add(x,y)=>x+y
