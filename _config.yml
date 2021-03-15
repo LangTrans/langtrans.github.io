@@ -1,4 +1,4 @@
-remote_theme: poole/hyde
+remote_theme: fongandrew/hydeout
 theme: jekyll-theme-slate
 title: LangTrans
 description: Customize Programming Language
