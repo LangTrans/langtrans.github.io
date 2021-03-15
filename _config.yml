@@ -1,5 +1,4 @@
-remote_theme: poole/hyde
-theme: jekyll-theme-hyde
+theme: jekyll-theme-slate
 title: LangTrans
 description: Customize Programming Language
 repository: "LangTrans/LangTrans"
@@ -8,10 +7,4 @@ footer-links:
 plugins:
   - jekyll-seo-tag
 google_analytics: UA-153183472-2
-font:
-  enable: true
-  posts:
-    size: 21
-  headings:
-      size: 30
 highlighter: redcarpet
