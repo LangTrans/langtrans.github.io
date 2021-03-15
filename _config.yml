@@ -10,5 +10,7 @@ plugins:
 google_analytics: UA-153183472-2
 font:
   enable: true
-  global:
+  posts:
     size: 21
+  headings:
+      size: 30
