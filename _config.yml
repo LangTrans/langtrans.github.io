@@ -1,4 +1,4 @@
-theme: jekyll-theme-slate
+remote_theme: poole/hyde
 title: LangTrans
 description: Customize Programming Language
 repository: "LangTrans/LangTrans"
@@ -6,5 +6,6 @@ footer-links:
   github: langtrans
 plugins:
   - jekyll-seo-tag
+  - jekyll-remote-theme
 google_analytics: UA-153183472-2
 highlighter: redcarpet
