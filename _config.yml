@@ -8,4 +8,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
 google_analytics: UA-153183472-2
-highlighter: redcarpet
+kramdown:
+  input: GFM
+  syntax_highlighter: coderay
+  syntax_highlighter_opts:
+    css_class: 'highlight'
