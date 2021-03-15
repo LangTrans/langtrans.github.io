@@ -1,4 +1,5 @@
 theme: jekyll-theme-hydeout
+remote_theme: fongandrew/hydeout
 title: LangTrans
 description: Customize Programming Language
 repository: "LangTrans/LangTrans"
