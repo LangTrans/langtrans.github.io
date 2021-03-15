@@ -3,12 +3,49 @@
 ### Advantages
 - You can customize any programming language with your needs.
 - No need to create a new compiler/interpreter to use your preferred syntax.
-- You can create whole syntax or partially for an existing compiler/interpreter of any language.
+- You can develop whole syntax or extend it with existing compiler/interpreter of any language.
 - Code faster with your dialect for your domain.
-- Knowledge about regular expression is all you need.
+- Knowledge about regular expression is the only prerequisite.
 - Regular expression can be used with nesting support
 
 ### Example
+#### Python
+##### Customized Syntax
+```js
+p"Hello World"
+inc = (x) => x+1
+add(x,y)=>x+y
+print(![inc => 1..6])
+print|inc|inc(1)
+try inc("1") Exception print("Error:",err)
+test ="test"
+=test.replace("test","")
+x = True
+print((x||False)?"Done":"Failed")
+print('x is not defined') if !x
+```
+##### Orginal Syntax
+```python
+print("Hello World")
+inc = lambda x: x+1
+add = lambda x,y:x+y
+print(list(map(inc,range(1,6+1))))
+print(inc(inc(1)))
+try:
+  inc("1")
+except Exception as err:
+  print("Error:",err)
+test ="test"
+test=test.replace("test","")
+x = True
+print("Done" if (x if 'x' in locals() else False) else "Failed")
+if 'x' not in locals():
+  print('x is not defined')
+```
+Yaml files used here<br>
+[New syntax](https://github.com/LangTrans/Py_Trans/blob/main/source.yaml)(For token extraction)<br>
+[Template of LISP](https://github.com/LangTrans/Py_Trans/blob/main/target.yaml)
+#### LISP
 ##### Customized Syntax of LISP
 
 ```python
@@ -16,7 +53,6 @@ func printhis(s):
 	format(t,s)
 printhis("Customized!")
 ```
-
 ##### Original Syntax 
 
 ```lisp
@@ -25,12 +61,13 @@ printhis("Customized!")
 )
 (printhis "Customized!")
 ```
-Yaml files used are [New syntax](https://github.com/LangTrans/LangTrans/blob/main/example/source.yaml)(Token extraction), [Template of LISP](https://github.com/LangTrans/LangTrans/blob/main/example/target.yaml)
+[New syntax](https://github.com/LangTrans/LangTrans/blob/main/example/source.yaml)<br>[Template of LISP](https://github.com/LangTrans/LangTrans/blob/main/example/target.yaml)
 
 For more see the [Documentation](https://langtrans.readthedocs.io/en/latest/)
 
 ### Languages
 * [Common Lisp](https://github.com/B-R-P/LISP_Trans)
+* [Python](https://github.com/LangTrans/Py_Trans)
 * [Lua](https://github.com/B-R-P/Lua_Trans)
 * [Languages by community](https://langtrans.github.io/langtransrepos/)
 
