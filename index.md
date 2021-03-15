@@ -1,6 +1,6 @@
 [LangTrans](https://github.com/LangTrans/LangTrans) is a developer tool to customize syntax of any programming language.
 
-### Advantages
+## Advantages
 - You can customize any programming language with your needs.
 - No need to create a new compiler/interpreter to use your preferred syntax.
 - You can develop whole syntax or extend it with existing compiler/interpreter of any language.
@@ -8,9 +8,9 @@
 - Knowledge about regular expression is the only prerequisite.
 - Regular expression can be used with nesting support
 
-### Example
-#### Python
-##### Customized Syntax
+## Example
+### Python
+#### Customized Syntax
 ```js
 p"Hello World"
 inc = (x) => x+1
@@ -24,7 +24,7 @@ x = True
 print((x||False)?"Done":"Failed")
 print('x is not defined') if !x
 ```
-##### Orginal Syntax
+#### Orginal Syntax
 ```python
 print("Hello World")
 inc = lambda x: x+1
@@ -45,15 +45,15 @@ if 'x' not in locals():
 Yaml files used here<br>
 [New syntax](https://github.com/LangTrans/Py_Trans/blob/main/source.yaml)(For token extraction)<br>
 [Template of LISP](https://github.com/LangTrans/Py_Trans/blob/main/target.yaml)
-#### LISP
-##### Customized Syntax of LISP
+### LISP
+#### Customized Syntax of LISP
 
 ```python
 func printhis(s):
 	format(t,s)
 printhis("Customized!")
 ```
-##### Original Syntax 
+#### Original Syntax 
 
 ```lisp
 (defun printhis (s)
@@ -65,7 +65,7 @@ printhis("Customized!")
 
 For more see the [Documentation](https://langtrans.readthedocs.io/en/latest/)
 
-### Languages
+## Languages
 * [Common Lisp](https://github.com/B-R-P/LISP_Trans)
 * [Python](https://github.com/LangTrans/Py_Trans)
 * [Lua](https://github.com/B-R-P/Lua_Trans)
@@ -73,12 +73,12 @@ For more see the [Documentation](https://langtrans.readthedocs.io/en/latest/)
 
 [Share your language here](https://forms.gle/YDEKapaTZmJspyDeA)
 
-### Download
+## Download
 - [Releases](https://github.com/LangTrans/LangTrans/releases)
 - [Standalone](https://drive.google.com/uc?export=download&id=14lanbflcifeIM3PSCL3fF3rFxSBPrt7W)<br>
 - [Installer](https://drive.google.com/uc?export=download&id=15soZJZCDrDP5KGVxvD5L9Sg7109XVc7y)
 
-### Community
+## Community
 [<img src="https://discord.com/assets/2c21aeda16de354ba5334551a883b481.png" alt="Discord" style="height: 100px;width: 100px;"/>](https://discord.gg/3nDwppur5S)
 [<img src="https://avatars.githubusercontent.com/u/25838825?s=200&v=4" alt="Spectrum" style="height: 100px;width: 100px;"/>](https://spectrum.chat/langtrans-community)
 [<img src="https://www.gstatic.com/images/branding/product/2x/groups_48dp.png" alt="Google Groups" style="height: 100px;width: 100px;"/>](https://groups.google.com/g/langtrans-community)
