@@ -11,56 +11,56 @@
 ## Example
 ### Python
 #### Customized Syntax
-```javascript
-p"Hello World"
-inc = (x) => x+1
-add(x,y)=>x+y
-print(![inc => 1..6])
-print|inc|inc(1)
-try inc("1") Exception print("Error:",err)
-test ="test"
-=test.replace("test","")
-x = True
-print((x||False)?"Done":"Failed")
-print('x is not defined') if !x
-```
+
+<div class="highlight" style="background: #f0f0f0"><pre style="line-height: 125%;"><span></span>p<span style="color: #4070a0">"Hello World"</span>
+inc <span style="color: #666666">=</span> (x) =&gt; x<span style="color: #666666">+</span><span style="color: #40a070">1</span>
+add(x,y)=&gt;x<span style="color: #666666">+</span>y
+print(<span style="color: #666666">!</span>[inc =&gt; <span style="color: #40a070">1..6</span>])
+print<span style="color: #666666">|</span>inc<span style="color: #666666">|</span>inc(<span style="color: #40a070">1</span>)
+<span style="color: #007020; font-weight: bold">try</span> inc(<span style="color: #4070a0">"1"</span>) Exception print(<span style="color: #4070a0">"Error:"</span>,err)
+test <span style="color: #666666">=</span><span style="color: #4070a0">"test"</span>
+<span style="color: #666666">=</span>test.replace(<span style="color: #4070a0">"test"</span>,<span style="color: #4070a0">""</span>)
+x <span style="color: #666666">=</span> True
+print((x<span style="color: #666666">||</span>False)<span style="color: #666666">?</span><span style="color: #4070a0">"Done"</span><span style="color: #666666">:</span><span style="color: #4070a0">"Failed"</span>)
+print(<span style="color: #4070a0">'x is not defined'</span>) <span style="color: #007020; font-weight: bold">if</span> <span style="color: #666666">!</span>x
+</pre></div>
+
 #### Orginal Syntax
-```python
-print("Hello World")
-inc = lambda x: x+1
-add = lambda x,y:x+y
-print(list(map(inc,range(1,6+1))))
-print(inc(inc(1)))
-try:
-  inc("1")
-except Exception as err:
-  print("Error:",err)
-test ="test"
-test=test.replace("test","")
-x = True
-print("Done" if (x if 'x' in locals() else False) else "Failed")
-if 'x' not in locals():
-  print('x is not defined')
-```
+
+<div class="highlight" style="background: #f0f0f0"><pre style="line-height: 125%;"><span></span><span style="color: #007020">print</span>(<span style="color: #4070a0">"Hello World"</span>)
+inc <span style="color: #666666">=</span> <span style="color: #007020; font-weight: bold">lambda</span> x: x<span style="color: #666666">+</span><span style="color: #40a070">1</span>
+add <span style="color: #666666">=</span> <span style="color: #007020; font-weight: bold">lambda</span> x,y:x<span style="color: #666666">+</span>y
+<span style="color: #007020">print</span>(<span style="color: #007020">list</span>(<span style="color: #007020">map</span>(inc,<span style="color: #007020">range</span>(<span style="color: #40a070">1</span>,<span style="color: #40a070">6</span><span style="color: #666666">+</span><span style="color: #40a070">1</span>))))
+<span style="color: #007020">print</span>(inc(inc(<span style="color: #40a070">1</span>)))
+<span style="color: #007020; font-weight: bold">try</span>:
+  inc(<span style="color: #4070a0">"1"</span>)
+<span style="color: #007020; font-weight: bold">except</span> <span style="color: #007020">Exception</span> <span style="color: #007020; font-weight: bold">as</span> err:
+  <span style="color: #007020">print</span>(<span style="color: #4070a0">"Error:"</span>,err)
+test <span style="color: #666666">=</span><span style="color: #4070a0">"test"</span>
+test<span style="color: #666666">=</span>test<span style="color: #666666">.</span>replace(<span style="color: #4070a0">"test"</span>,<span style="color: #4070a0">""</span>)
+x <span style="color: #666666">=</span> <span style="color: #007020; font-weight: bold">True</span>
+<span style="color: #007020">print</span>(<span style="color: #4070a0">"Done"</span> <span style="color: #007020; font-weight: bold">if</span> (x <span style="color: #007020; font-weight: bold">if</span> <span style="color: #4070a0">'x'</span> <span style="color: #007020; font-weight: bold">in</span> <span style="color: #007020">locals</span>() <span style="color: #007020; font-weight: bold">else</span> <span style="color: #007020; font-weight: bold">False</span>) <span style="color: #007020; font-weight: bold">else</span> <span style="color: #4070a0">"Failed"</span>)
+<span style="color: #007020; font-weight: bold">if</span> <span style="color: #4070a0">'x'</span> <span style="color: #007020; font-weight: bold">not</span> <span style="color: #007020; font-weight: bold">in</span> <span style="color: #007020">locals</span>():
+  <span style="color: #007020">print</span>(<span style="color: #4070a0">'x is not defined'</span>)
+</pre></div>
 Yaml files used here<br>
 [New syntax](https://github.com/LangTrans/Py_Trans/blob/main/source.yaml)(For token extraction)<br>
 [Template of LISP](https://github.com/LangTrans/Py_Trans/blob/main/target.yaml)
 ### LISP
 #### Customized Syntax of LISP
 
-```python
-func printhis(s):
-	format(t,s)
-printhis("Customized!")
-```
+<div class="highlight" style="background: #f0f0f0"><pre style="line-height: 125%;"><span></span>func printhis(s):
+	<span style="color: #007020">format</span>(t,s)
+printhis(<span style="color: #4070a0">"Customized!"</span>)
+</pre></div>
+
 #### Original Syntax 
 
-```lisp
-(defun printhis (s)
-	(format t s)
+<div class="highlight" style="background: #f0f0f0"><pre style="line-height: 125%;"><span></span>(defun printhis (s)
+	(<span style="color: #007020">format</span> t s)
 )
-(printhis "Customized!")
-```
+(printhis <span style="color: #4070a0">"Customized!"</span>)
+</pre></div>
 [New syntax](https://github.com/LangTrans/LangTrans/blob/main/example/source.yaml)<br>[Template of LISP](https://github.com/LangTrans/LangTrans/blob/main/example/target.yaml)
 
 For more see the [Documentation](https://langtrans.readthedocs.io/en/latest/)
