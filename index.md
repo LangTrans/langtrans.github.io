@@ -6,7 +6,6 @@
 - You can develop whole syntax or extend it with existing compiler/interpreter of any language.
 - Code faster with your dialect for your domain.
 - Knowledge about regular expression is the only prerequisite.
-- Regular expression can be used with nesting support
 
 ## Example
 ### Python
