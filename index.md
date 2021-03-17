@@ -61,7 +61,7 @@ Yaml files used here<br>
 </pre></div>
 
 [New syntax](https://github.com/LangTrans/LangTrans/blob/main/example/source.yaml)<br>[Template of LISP](https://github.com/LangTrans/LangTrans/blob/main/example/target.yaml)
-
+## Documentation
 For more see the [Documentation](https://langtrans.readthedocs.io/en/latest/)
 
 ## Languages
