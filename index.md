@@ -74,8 +74,8 @@ For more see the [Documentation](https://langtrans.readthedocs.io/en/latest/)
 
 ## Download
 - [Releases](https://github.com/LangTrans/LangTrans/releases)
-- [Standalone](https://drive.google.com/uc?export=download&id=14lanbflcifeIM3PSCL3fF3rFxSBPrt7W)<br>
-- [Installer](https://drive.google.com/uc?export=download&id=15soZJZCDrDP5KGVxvD5L9Sg7109XVc7y)
+- [Standalone](https://github.com/LangTrans/LangTrans/releases/download/1.6/langtrans.exe)<br>
+- [Installer](https://github.com/LangTrans/LangTrans/releases/download/1.6/LangTrans_Installer.exe)
 
 ## Community
 [<img src="https://discord.com/assets/2c21aeda16de354ba5334551a883b481.png" alt="Discord" style="height: 70px;width: 70px;"/>](https://discord.gg/3nDwppur5S)[<img src="https://avatars.githubusercontent.com/u/25838825?s=200&v=4" alt="Spectrum" style="height: 70px;width: 70px;"/>](https://spectrum.chat/langtrans-community)[<img src="https://www.gstatic.com/images/branding/product/2x/groups_48dp.png" alt="Google Groups" style="height: 70px;width: 70px;"/>](https://groups.google.com/g/langtrans-community)
