@@ -11,36 +11,39 @@
 ### Python
 #### Customized Syntax
 
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><span style="color: #000000">p</span><span style="color: #4e9a06">"Hello World"</span>
-<span style="color: #000000">inc</span> <span style="color: #ce5c00; font-weight: bold">=</span> <span style="color: #000000; font-weight: bold">(</span><span style="color: #000000">x</span><span style="color: #000000; font-weight: bold">)</span> <span style="color: #000000; font-weight: bold">=&gt;</span> <span style="color: #000000">x</span><span style="color: #ce5c00; font-weight: bold">+</span><span style="color: #0000cf; font-weight: bold">1</span>
-<span style="color: #000000">add</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #000000">x</span><span style="color: #000000; font-weight: bold">,</span><span style="color: #000000">y</span><span style="color: #000000; font-weight: bold">)=&gt;</span><span style="color: #000000">x</span><span style="color: #ce5c00; font-weight: bold">+</span><span style="color: #000000">y</span>
-<span style="color: #000000">print</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #ce5c00; font-weight: bold">!</span><span style="color: #000000; font-weight: bold">[</span><span style="color: #000000">inc</span> <span style="color: #000000; font-weight: bold">=&gt;</span> <span style="color: #0000cf; font-weight: bold">1..6</span><span style="color: #000000; font-weight: bold">])</span>
-<span style="color: #000000">print</span><span style="color: #ce5c00; font-weight: bold">|</span><span style="color: #000000">inc</span><span style="color: #ce5c00; font-weight: bold">|</span><span style="color: #000000">inc</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #0000cf; font-weight: bold">1</span><span style="color: #000000; font-weight: bold">)</span>
-<span style="color: #204a87; font-weight: bold">try</span> <span style="color: #000000">inc</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #4e9a06">"1"</span><span style="color: #000000; font-weight: bold">)</span> <span style="color: #000000">Exception</span> <span style="color: #000000">print</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #4e9a06">"Error:"</span><span style="color: #000000; font-weight: bold">,</span><span style="color: #000000">err</span><span style="color: #000000; font-weight: bold">)</span>
-<span style="color: #000000">test</span> <span style="color: #ce5c00; font-weight: bold">=</span><span style="color: #4e9a06">"test"</span>
-<span style="color: #ce5c00; font-weight: bold">=</span><span style="color: #000000">test</span><span style="color: #000000; font-weight: bold">.</span><span style="color: #000000">replace</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #4e9a06">"test"</span><span style="color: #000000; font-weight: bold">,</span><span style="color: #4e9a06">""</span><span style="color: #000000; font-weight: bold">)</span>
-<span style="color: #000000">x</span> <span style="color: #ce5c00; font-weight: bold">=</span> <span style="color: #000000">True</span>
-<span style="color: #000000">print</span><span style="color: #000000; font-weight: bold">((</span><span style="color: #000000">x</span><span style="color: #ce5c00; font-weight: bold">||</span><span style="color: #000000">False</span><span style="color: #000000; font-weight: bold">)</span><span style="color: #ce5c00; font-weight: bold">?</span><span style="color: #4e9a06">"Done"</span><span style="color: #ce5c00; font-weight: bold">:</span><span style="color: #4e9a06">"Failed"</span><span style="color: #000000; font-weight: bold">)</span>
-<span style="color: #000000">print</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #4e9a06">'x is not defined'</span><span style="color: #000000; font-weight: bold">)</span> <span style="color: #204a87; font-weight: bold">if</span> <span style="color: #ce5c00; font-weight: bold">!</span><span style="color: #000000">x</span>
-</pre></div>
+```py
+#Print
+p"Hello World"
+# Anonymous function
+inc = (x) => x+1
+# Lambda function
+twice(x) = 2*x
+# Single Line try-except
+try inc("1") Exception print("Error:",err)
+# Print Done if x is defined other wise Failed
+print((x||True)?"Done":"Failed")
+# Single Line if and check x defined or not
+print('x is not defined') if !x
+# Pipe Syntax
+1 -> inc
+|> print
+# Arithmetic operations with functions 
+print((inc+twice)(3))
+#Scope syntax work like in javascript
+#scope1#
+print("Scope1")
+print("Done")
 
-#### Orginal Syntax
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><span style="color: #204a87">print</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #4e9a06">"Hello World"</span><span style="color: #000000; font-weight: bold">)</span>
-<span style="color: #000000">inc</span> <span style="color: #ce5c00; font-weight: bold">=</span> <span style="color: #204a87; font-weight: bold">lambda</span> <span style="color: #000000">x</span><span style="color: #000000; font-weight: bold">:</span> <span style="color: #000000">x</span><span style="color: #ce5c00; font-weight: bold">+</span><span style="color: #0000cf; font-weight: bold">1</span>
-<span style="color: #000000">add</span> <span style="color: #ce5c00; font-weight: bold">=</span> <span style="color: #204a87; font-weight: bold">lambda</span> <span style="color: #000000">x</span><span style="color: #000000; font-weight: bold">,</span><span style="color: #000000">y</span><span style="color: #000000; font-weight: bold">:</span><span style="color: #000000">x</span><span style="color: #ce5c00; font-weight: bold">+</span><span style="color: #000000">y</span>
-<span style="color: #204a87">print</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #204a87">list</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #204a87">map</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #000000">inc</span><span style="color: #000000; font-weight: bold">,</span><span style="color: #204a87">range</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #0000cf; font-weight: bold">1</span><span style="color: #000000; font-weight: bold">,</span><span style="color: #0000cf; font-weight: bold">6</span><span style="color: #ce5c00; font-weight: bold">+</span><span style="color: #0000cf; font-weight: bold">1</span><span style="color: #000000; font-weight: bold">))))</span>
-<span style="color: #204a87">print</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #000000">inc</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #000000">inc</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #0000cf; font-weight: bold">1</span><span style="color: #000000; font-weight: bold">)))</span>
-<span style="color: #204a87; font-weight: bold">try</span><span style="color: #000000; font-weight: bold">:</span>
-  <span style="color: #000000">inc</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #4e9a06">"1"</span><span style="color: #000000; font-weight: bold">)</span>
-<span style="color: #204a87; font-weight: bold">except</span> <span style="color: #cc0000; font-weight: bold">Exception</span> <span style="color: #204a87; font-weight: bold">as</span> <span style="color: #000000">err</span><span style="color: #000000; font-weight: bold">:</span>
-  <span style="color: #204a87">print</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #4e9a06">"Error:"</span><span style="color: #000000; font-weight: bold">,</span><span style="color: #000000">err</span><span style="color: #000000; font-weight: bold">)</span>
-<span style="color: #000000">test</span> <span style="color: #ce5c00; font-weight: bold">=</span><span style="color: #4e9a06">"test"</span>
-<span style="color: #000000">test</span><span style="color: #ce5c00; font-weight: bold">=</span><span style="color: #000000">test</span><span style="color: #ce5c00; font-weight: bold">.</span><span style="color: #000000">replace</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #4e9a06">"test"</span><span style="color: #000000; font-weight: bold">,</span><span style="color: #4e9a06">""</span><span style="color: #000000; font-weight: bold">)</span>
-<span style="color: #000000">x</span> <span style="color: #ce5c00; font-weight: bold">=</span> <span style="color: #204a87; font-weight: bold">True</span>
-<span style="color: #204a87">print</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #4e9a06">"Done"</span> <span style="color: #204a87; font-weight: bold">if</span> <span style="color: #000000; font-weight: bold">(</span><span style="color: #000000">x</span> <span style="color: #204a87; font-weight: bold">if</span> <span style="color: #4e9a06">'x'</span> <span style="color: #204a87; font-weight: bold">in</span> <span style="color: #204a87">locals</span><span style="color: #000000; font-weight: bold">()</span> <span style="color: #204a87; font-weight: bold">else</span> <span style="color: #204a87; font-weight: bold">False</span><span style="color: #000000; font-weight: bold">)</span> <span style="color: #204a87; font-weight: bold">else</span> <span style="color: #4e9a06">"Failed"</span><span style="color: #000000; font-weight: bold">)</span>
-<span style="color: #204a87; font-weight: bold">if</span> <span style="color: #4e9a06">'x'</span> <span style="color: #204a87; font-weight: bold">not</span> <span style="color: #204a87; font-weight: bold">in</span> <span style="color: #204a87">locals</span><span style="color: #000000; font-weight: bold">():</span>
-  <span style="color: #204a87">print</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #4e9a06">'x is not defined'</span><span style="color: #000000; font-weight: bold">)</span>
-</pre></div>
+#scope2#
+print("scope2")
+print("Done")
+
+#PEP 359 - The "make" statement 
+make type name(arg):
+	x = 1
+	y = 3
+
+```
 
 Yaml files used here<br>
 [New syntax](https://github.com/LangTrans/Py_Trans/blob/main/source.yaml)(For token extraction)<br>
