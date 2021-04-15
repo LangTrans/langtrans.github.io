@@ -9,7 +9,7 @@
 
 ## Example
 ### Python
-#### Customized Syntax
+#### Customized Syntax of Python
 
 ```py
 #Print
@@ -27,6 +27,8 @@ print('x is not defined') if !x
 # Pipe Syntax
 1 -> inc
 |> print
+# Reverse Pipe
+print<-inc<-inc<-1
 # Arithmetic operations with functions 
 print((inc+twice)(3))
 #Scope syntax work like in javascript
@@ -41,13 +43,15 @@ print("Done")
 #PEP 359 - The "make" statement 
 make type name(arg):
 	x = 1
+	pass
 	y = 3
-
+make dict test: #Creating dictionary
+    this =  "this"
+    if this == "this":
+        pass
+    that = "that"
 ```
 
-Yaml files used here<br>
-[New syntax](https://github.com/LangTrans/Py_Trans/blob/main/source.yaml)(For token extraction)<br>
-[Template of LISP](https://github.com/LangTrans/Py_Trans/blob/main/target.yaml)
 ### LISP
 #### Customized Syntax of LISP
 
@@ -56,21 +60,13 @@ Yaml files used here<br>
 <span style="color: #000000">printhis</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #4e9a06">"Customized!"</span><span style="color: #000000; font-weight: bold">)</span>
 </pre></div>
 
-#### Original Syntax 
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><span style="color: #000000; font-weight: bold">(</span><span style="color: #000000">defun</span> <span style="color: #000000">printhis</span> <span style="color: #000000; font-weight: bold">(</span><span style="color: #000000">s</span><span style="color: #000000; font-weight: bold">)</span>
-	<span style="color: #000000; font-weight: bold">(</span><span style="color: #000000">format</span> <span style="color: #000000">t</span> <span style="color: #000000">s</span><span style="color: #000000; font-weight: bold">)</span>
-<span style="color: #000000; font-weight: bold">)</span>
-<span style="color: #000000; font-weight: bold">(</span><span style="color: #000000">printhis</span> <span style="color: #4e9a06">"Customized!"</span><span style="color: #000000; font-weight: bold">)</span>
-</pre></div>
-
-[New syntax](https://github.com/LangTrans/LangTrans/blob/main/example/source.yaml)<br>[Template of LISP](https://github.com/LangTrans/LangTrans/blob/main/example/target.yaml)
 ## Documentation
 For more see the [Documentation](https://langtrans.readthedocs.io/en/latest/)
 
 ## Languages
-* [Common Lisp](https://github.com/B-R-P/LISP_Trans)
+* [Common Lisp](https://github.com/LangTrans/LISP_Trans)
 * [Python](https://github.com/LangTrans/Py_Trans)
-* [Lua](https://github.com/B-R-P/Lua_Trans)
+* [Lua](https://github.com/LangTrans/Lua_Trans)
 * [Languages by community](https://langtrans.github.io/langtransrepos/)
 
 [Share your language here](https://forms.gle/YDEKapaTZmJspyDeA)
