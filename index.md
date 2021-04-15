@@ -9,7 +9,6 @@
 
 ## Example
 ### Python
-#### Customized Syntax of Python
 
 ```py
 #Print
@@ -53,12 +52,12 @@ make dict test: #Creating dictionary
 ```
 
 ### LISP
-#### Customized Syntax of LISP
 
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><span style="color: #000000">func</span> <span style="color: #000000">printhis</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #000000">s</span><span style="color: #000000; font-weight: bold">):</span>
-	<span style="color: #204a87">format</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #000000">t</span><span style="color: #000000; font-weight: bold">,</span><span style="color: #000000">s</span><span style="color: #000000; font-weight: bold">)</span>
-<span style="color: #000000">printhis</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #4e9a06">"Customized!"</span><span style="color: #000000; font-weight: bold">)</span>
-</pre></div>
+```py
+func printhis(s):
+	format(t,s)
+printhis("Customized!")
+```
 
 ## Documentation
 For more see the [Documentation](https://langtrans.readthedocs.io/en/latest/)
