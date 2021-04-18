@@ -1,6 +1,6 @@
 [LangTrans](https://github.com/LangTrans/LangTrans) is a developer tool to customize syntax of any programming language.
 
-## Advantages
+## Benefits
 - You can customize any programming language with your needs.
 - No need to create a new compiler/interpreter to use your preferred syntax.
 - You can develop whole syntax or extend it with existing compiler/interpreter of any language.
@@ -36,13 +36,14 @@ print("Scope1")
 print("Done")
 
 #scope2#
-print("scope2")
+print("Scope2")
 print("Done")
 
 #PEP 359 - The "make" statement 
 make type name(arg):
 	x = 1
-	pass
+	if x == 1:
+	    pass
 	y = 3
 make dict test: #Creating dictionary
     this =  "this"
@@ -59,12 +60,11 @@ func printhis(s):
 printhis("Customized!")
 ```
 
-## Documentation
 For more see the [Documentation](https://langtrans.readthedocs.io/en/latest/)
 
 ## Languages
-* [Common Lisp](https://github.com/LangTrans/LISP_Trans)
 * [Python](https://github.com/LangTrans/Py_Trans)
+* [Common Lisp](https://github.com/LangTrans/LISP_Trans)
 * [Lua](https://github.com/LangTrans/Lua_Trans)
 * [Languages by community](https://langtrans.github.io/langtransrepos/)
 
@@ -78,4 +78,4 @@ For more see the [Documentation](https://langtrans.readthedocs.io/en/latest/)
 ## Community
 [<img src="https://discord.com/assets/2c21aeda16de354ba5334551a883b481.png" alt="Discord" style="height: 70px;width: 70px;"/>](https://discord.gg/3nDwppur5S)[<img src="https://avatars.githubusercontent.com/u/25838825?s=200&v=4" alt="Spectrum" style="height: 70px;width: 70px;"/>](https://spectrum.chat/langtrans-community)[<img src="https://www.gstatic.com/images/branding/product/2x/groups_48dp.png" alt="Google Groups" style="height: 70px;width: 70px;"/>](https://groups.google.com/g/langtrans-community)
 
-LangTrans is licensed under [MIT License](https://raw.githubusercontent.com/B-R-P/LangTrans/main/LICENSE)
+LangTrans is licensed under [MIT License](https://raw.githubusercontent.com/LangTrans/LangTrans/main/LICENSE)
