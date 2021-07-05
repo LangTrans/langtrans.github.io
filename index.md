@@ -79,4 +79,11 @@ For more see the [Documentation](https://langtrans.readthedocs.io/en/latest/)
 ## Community
 [<img src="https://discord.com/assets/2c21aeda16de354ba5334551a883b481.png" alt="Discord" style="height: 70px;width: 70px;"/>](https://discord.gg/3nDwppur5S)[<img src="https://avatars.githubusercontent.com/u/25838825?s=200&v=4" alt="Spectrum" style="height: 70px;width: 70px;"/>](https://spectrum.chat/langtrans-community)[<img src="https://www.gstatic.com/images/branding/product/2x/groups_48dp.png" alt="Google Groups" style="height: 70px;width: 70px;"/>](https://groups.google.com/g/langtrans-community)
 
+<div>
+Share on
+<a href="https://news.ycombinator.com/submitlink?u=https://langtrans.github.io&t=Customize%20Programming%20Languages" target="_blank" rel="noopener noreferrer" style="color: green;">Hacker News</a>
+<a href="https://www.reddit.com/submit?title=Customize%20Programming%20Languages&url=https%3A%2F%2Flangtrans.github.io" target="_blank" rel="noopener noreferrer" style="color: green;">Reddit</a>
+<a href="https://twitter.com/intent/tweet?text=Customize%20Programming%20Languages&url=https://langtrans.github.io" target="_blank" rel="noopener noreferrer" style="color: green;">Twitter</a>
+</div>
+
 LangTrans is licensed under [MIT License](https://raw.githubusercontent.com/LangTrans/LangTrans/main/LICENSE)
