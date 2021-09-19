@@ -1,11 +1,11 @@
 [LangTrans](https://github.com/LangTrans/LangTrans) is a developer tool to customize syntax of any programming language.
 
 ## Benefits
-- Code in your style.
-- No need to create a new compiler/interpreter to use your preferred syntax.
-- You can develop whole syntax or extend it with existing compiler/interpreter of any language.
-- Code faster with your dialect for your domain.
-- Knowledge about regular expression is the only prerequisite.
+- Code in your style
+- No need to create a new compiler/interpreter to use your preferred syntax
+- You can develop whole syntax or extend it with existing compiler/interpreter of any language
+- Code faster with your dialect for your domain
+- Knowledge about regular expression is the only prerequisite
 
 ## Example
 ### Python
@@ -60,7 +60,7 @@ func printhis(s):
 printhis("Customized!")
 ```
 
-For more see the [Documentation](https://langtrans.readthedocs.io/en/latest/)
+For more see the [Documentation](https://bijinregipanicker.gitbook.io/langtrans/)
 
 ## Languages
 * [Python](https://github.com/LangTrans/Py_Trans)
@@ -77,7 +77,7 @@ For more see the [Documentation](https://langtrans.readthedocs.io/en/latest/)
 - [Installer](https://github.com/LangTrans/LangTrans/releases/download/1.6/LangTrans_Installer.exe)
 
 ## Community
-[<img src="https://discord.com/assets/2c21aeda16de354ba5334551a883b481.png" alt="Discord" style="height: 70px;width: 70px;"/>](https://discord.gg/3nDwppur5S)[<img src="https://avatars.githubusercontent.com/u/25838825?s=200&v=4" alt="Spectrum" style="height: 70px;width: 70px;"/>](https://spectrum.chat/langtrans-community)[<img src="https://www.gstatic.com/images/branding/product/2x/groups_48dp.png" alt="Google Groups" style="height: 70px;width: 70px;"/>](https://groups.google.com/g/langtrans-community)
+[<img src="https://discord.com/assets/f9bb9c4af2b9c32a2c5ee0014661546d.png" alt="Discord" style="height: 70px;width: 70px;"/>](https://discord.gg/3nDwppur5S)[<img src="https://avatars.githubusercontent.com/u/25838825?s=200&v=4" alt="Spectrum" style="height: 70px;width: 70px;"/>](https://spectrum.chat/langtrans-community)[<img src="https://www.gstatic.com/images/branding/product/2x/groups_48dp.png" alt="Google Groups" style="height: 70px;width: 70px;"/>](https://groups.google.com/g/langtrans-community)
 
 LangTrans is licensed under [MIT License](https://raw.githubusercontent.com/LangTrans/LangTrans/main/LICENSE)
 <div>
