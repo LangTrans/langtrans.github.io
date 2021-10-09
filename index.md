@@ -86,3 +86,11 @@ Share on
 <a href="https://www.reddit.com/submit?title=Customize%20Programming%20Languages&url=https%3A%2F%2Flangtrans.github.io" target="_blank" rel="noopener noreferrer" style="color: green;">Reddit</a>
 <a href="https://twitter.com/intent/tweet?text=Customize%20Programming%20Languages&url=https://langtrans.github.io" target="_blank" rel="noopener noreferrer" style="color: green;">Twitter</a>
 </div>
+<script src="https://utteranc.es/client.js"
+        repo="langtrans/langtrans"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
