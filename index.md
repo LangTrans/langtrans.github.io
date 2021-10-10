@@ -77,7 +77,7 @@ For more see the [Documentation](https://bijinregipanicker.gitbook.io/langtrans/
 - [Installer](https://github.com/LangTrans/LangTrans/releases/download/1.6/LangTrans_Installer.exe)
 
 ## Community
-[<img src="https://avatars.githubusercontent.com/u/1965106?s=200&v=4" alt="Discord" style="height: 70px;width: 70px;"/>](https://discord.gg/3nDwppur5S)[<img src="https://avatars.githubusercontent.com/u/25838825?s=200&v=4" alt="Spectrum" style="height: 70px;width: 70px;"/>](https://spectrum.chat/langtrans-community)[<img src="https://www.gstatic.com/images/branding/product/2x/groups_48dp.png" alt="Google Groups" style="height: 70px;width: 70px;"/>](https://groups.google.com/g/langtrans-community)
+[<img src="https://avatars.githubusercontent.com/u/1965106?s=200&v=4" alt="Discord" style="height: 70px;width: 70px;"/>](https://discord.gg/3nDwppur5S)[<img src="https://www.redditinc.com/assets/images/site/reddit-logo.png" alt="Reddit" style="height: 70px;width: 70px;"/>](https://www.reddit.com/r/LangTrans/)[<img src="https://www.gstatic.com/images/branding/product/2x/groups_48dp.png" alt="Google Groups" style="height: 70px;width: 70px;"/>](https://groups.google.com/g/langtrans-community)
 
 LangTrans is licensed under [MIT License](https://raw.githubusercontent.com/LangTrans/LangTrans/main/LICENSE)
 <div>
